@@ -35,3 +35,7 @@ Ans4:-
 var emp1=[{ name:'Akash', salary:2000} , {name:'Eddy', salary:5000},{name: 'Mannu',salary:10000}, {name:'Deepak',salary: 1200000},{name: 'Harsh', salary:100000}]
 emp1.sort((a,b)=>a.name.localeCompare(b.name));
 emp1.sort((a,b)=>a.salary-b.salary);
+
+Ans 5:-
+var e=arr.map(e=>e.salary + e.salary *0.10);
+
